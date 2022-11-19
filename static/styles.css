@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital@1&display=swap');
+
+body {
+  background-color: rgb(239, 216, 132);
+  padding: 25;
+  margin: 100;
+  background: linear-gradient(to bottom right, #d39913, #f5e7aa);
+  font-size: 2em;
+  font-family: "Quicksand";
+  background-attachment: fixed;
+}
+
+.container {
+  width: 690px;
+  height: 220px;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+button {
+  font-size: 30px;
+  background-color: white;
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+  color: black;
+  width: 200px;
+  padding: 20px;
+  padding-left:40px; 
+  padding-right:40px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+select {
+    font-size: 45px;
+    font-family: "Cabin";
+}
+
+input {
+    font-size: 45px;
+    font-family: "Cabin";
+}
